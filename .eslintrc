@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["standard", "plugin:react/recommended"],
+  "plugins": [
+    "standard",
+    "promise",
+    "react"
+  ],
+  "rules": {
+    "semi": ["error", "never"],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "comma-dangle": [ 2, "always-multiline" ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

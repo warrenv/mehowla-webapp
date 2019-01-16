@@ -1,0 +1,5 @@
+import '../../src/widgets/nav-bar.test'
+import '../../src/features/playlist/playlist.test'
+import '../../src/features/playlist/song.test'
+import '../../src/features/playlist/reducers.test'
+import '../../src/features/discover/reducers.test'
